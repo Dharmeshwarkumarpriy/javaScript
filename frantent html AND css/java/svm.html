@@ -1,0 +1,44 @@
+<div class="banner-area banner-bg-1">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-12">
+
+                <div class="banner">
+
+                    <h2 style="text-transform: capitalize;"><span>{{$pg->title}}</span></h2>
+
+                    <ul class="page-title-link">
+
+                        <li><a href="{{url('/')}}">Home</a></li>
+
+                        <li><a href="{{url($pg->slug)}}">{{$pg->title}}</a></li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-lg-12 col-sm-12 col-md-12 pb-4">
+
+            <?= $pg->content; ?>
+
+        </div>
+
+    </div>
+
+</div>
+

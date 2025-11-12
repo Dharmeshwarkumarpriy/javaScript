@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>border image</title>
+    <style type="text/css">
+        h1 {
+            border: 30px solid;
+            /*border-image:url('image/border.jpg') 10px 30px stretch; */
+            border-image: linear-gradient(orange, green, blue) 40 / 30px 10px stretch;
+        }
+
+        h2 {
+            border: 30px solid;
+            border-image: linear-gradient(yellow, blue, pink) 40/30px 10px repeat stretch;
+        }
+
+        h3 {
+            border: 30px solid;
+            border-image: linear-gradient(gray, pink, red)40/30px 10px round;
+        }
+
+h4{
+    border: 30px solid;
+    border-image: linear-gradient(orange, green, blue) 40/30px 10px space;
+}
+
+h5{
+    border: 30px solid;
+    border-image: linear-gradient(gray, red,pink) 40/30px 10px space stretch;
+}
+    </style>
+</head>
+
+<body>
+    <h1>This is an example of border image</h1>
+    <h2>this is an example of border image</h2>
+    <h3>This is an example of border image</h3>
+    <h4>this is an example of border image</h4>
+    <h5>this is an example of border image</h5>
+
+</body>
+
+</html>

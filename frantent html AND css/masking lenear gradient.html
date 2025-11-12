@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>example masking using image</title>
+<style type="text/css">
+  body{
+
+    text-align: center;
+  }
+  #masked{
+    width: 200px;
+    height: 100px;
+    -webkit-mask-image: -webkit-gradient(linear,right top, right bottom, from(rgba(0,0,0,0)), to(rgba(0,0,0,9)))
+     }
+
+</style>
+</head>
+<body>
+<h1 style="color: red;">This is an example of masking</h1>
+
+<h2>using masking using linear gradient</h2>
+<img src="images/paper.png" id="masked">
+
+
+</body>
+</html>

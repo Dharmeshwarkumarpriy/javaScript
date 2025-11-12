@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title>form event attributer</Title>
+
+        <script type="text/javascript">
+
+            function changebackground(){
+document.body.style.background ="yellow";
+            }
+
+            function changeborder(){
+                document.body.style.border ="10px solod";
+            }
+
+            function changeBackgroundOnSubmit(){
+                alert();
+            }
+        </script>
+    </head>
+    <body>
+<form action="" method="" onreset="changeBackground()" onsubmit="changeBackgroundonsubmit();">
+<label>first name: </label>
+<input type="text" name="firstname" onblur=""><br><Br>
+    <label>last name: </label>
+<input type="text" name="lastname"><br><br>
+<label>email: </label>
+<input type="email" name="email" ininvalid="changeborder();">
+<input type="reset" name="reset"><br><br>
+
+
+</form>
+
+
+    </body>
+</html>

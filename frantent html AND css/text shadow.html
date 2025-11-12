@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>example text_shadow</title>
+<style type="text/css">
+    body{
+        text-align: center;
+    }
+div{
+    margin: 30px auto;
+    border: 1px solid #adadad;
+    padding: 10px;
+    width: 50%;
+
+
+}
+
+.hvb{
+    box-shadow: 5px 10px 10px;
+}
+.hvbs{
+    box-shadow: 5px 10px 10px 10px;
+}
+.hvbsc{
+    box-shadow: 5px 10px 10px 10px blue;
+}
+.box-inset{
+    box-shadow: 5px 10px 10px 10px yellow inset;
+}
+.box-initial{
+    box-shadow: 5px 10px 10px 10px yellow initial;
+}
+.shadow-fuzzy{
+    font-size: 30px;
+text-shadow: 3px 3px 3px green;
+
+}
+.shadow-multiple{
+    font-size: 30px;
+text-shadow: -3px -3px 3px green, 3px 3px 3px blue;
+
+}
+.shadow-glow{
+    font-size: 50px;
+    background-color: black;
+text-shadow: 0 0 0.1em cyan;
+
+}
+.shadow-glow1{
+    font-size: 50px;
+    background-color: black;
+text-shadow: 3px 3px 0.1em cyan;
+
+}
+</style>
+</head>
+<body>
+<h1 style="color: red;">This is an example of text shadow </h1>
+<p style="text-shadow: 3px 3px red;">simple shadow</p>
+<p style="text-shadow: 3px 3px red;">fuzzy shadow</p>
+<p class="shadow-fuzzy">fuzzy shadow</p>
+<p class="shadow-multiple">multiple shadow</p>
+<p class="shadow-glow">glow shadow</p>
+<p class="shadow-glow1">glow shadow</p>
+
+</body>
+</html>

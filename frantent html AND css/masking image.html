@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>example masking using image</title>
+<style type="text/css">
+  body{
+
+    text-align: center;
+  }
+.img{
+    width: 200px;
+    height: 100px;
+}
+  #masked{
+    width: 200px;
+    height: 100px;
+    -webkit-mask-box-image: url(images/rock.png);
+  }
+
+</style>
+</head>
+<body>
+<h1 style="color: red;">This is an example of masking</h1>
+<h2>original images</h2>
+
+<img src="images/paper.png" class="img">
+<img src="images/rock.png" class="img">
+
+<h2>using masking effect</h2>
+<img src="images/paper.png" id="masked">
+
+
+</body>
+</html>

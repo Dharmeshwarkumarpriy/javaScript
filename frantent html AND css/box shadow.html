@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>example box_shadow</title>
+<style type="text/css">
+    body{
+        text-align: center;
+    }
+div{
+    margin: 30px auto;
+    border: 1px solid #adadad;
+    padding: 10px;
+    width: 50%;
+
+
+}
+
+.hvb{
+    box-shadow: 5px 10px 10px;
+}
+.hvbs{
+    box-shadow: 5px 10px 10px 10px;
+}
+.hvbsc{
+    box-shadow: 5px 10px 10px 10px blue;
+}
+.box-inset{
+    box-shadow: 5px 10px 10px 10px yellow inset;
+}
+.box-initial{
+    box-shadow: 5px 10px 10px 10px yellow initial;
+}
+</style>
+</head>
+<body>
+<h1 style="color: red;">This is an example of box shadow </h1>
+
+<div class="hvb">
+<h3>this div only h_offset, v-offsett and blur</h3>
+</div>
+<div class="hvbs">
+<h3>this div only h_offset, v-offsett and blur and spread attribute</h3>
+</div>
+<div class="hvbsc">
+    <h3>this div only h_offset, v-offsett and blur and spread attribute and color</h3>
+    </div>
+    <div class="box-inset">
+        <h3>this div shows shadow with inset property</h3>
+        </div>
+        <div class="box-initial">
+            <h3>this div shows shadow with innitial property</h3>
+            </div>
+        
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>local storage</title>
+        <style>
+
+
+        </style>
+    </head>
+    <body>
+<p id="result"></p>
+
+<script>
+    if(typeof(Storage !="underfined")){
+        document.getElementById("result").innerHTML=localStorage.getItem("lastname");
+}else{
+    document.getElementById("result").innerHTML="sorry! your browser don't support web storage."
+}
+</script>
+
+
+    </body>
+</html>
